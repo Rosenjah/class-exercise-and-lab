@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Back End Assessment</title>
+</head>
+<body class="container">
+  <button id="complimentButton">Get a compliment</button>
+  <br/>
+  <br/>
+  <button id="cookieButton">Get a fortune cookie</button>
+  <br/>
+  <br/>
+  <button id="passwordButton">Generate a password</button>
+  <br/>
+  <br/>
+  <div>
+    <label for="goal-restaurant">
+      Select a restaurant for directions!
+    </label>
+    <select name="" id="goal-restaurant">
+      <option value="1">McDonald's</option>
+      <option value="2">Wendy's</option>
+      <option value="3">Taco Bell</option>
+    </select>
+    <button id="restaurant-submit" >Get Directions</button>
+  </div>
+
+  <section id="add-goal">
+    Enter your restaurant:
+    <input type="text" id="add-restaurant">
+    <br>
+    <textarea type="text" rows="30" cols="40" id="add-restaurant" placeholder="enter directions here..."></textarea>
+    <button id="add-advice-btn">Add Restaurant</button>
+  </section>
+
+  <section id="display-section"></section>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>

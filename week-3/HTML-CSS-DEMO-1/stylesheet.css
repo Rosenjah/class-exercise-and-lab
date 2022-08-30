@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+  }
+  body {
+    font-family: Arial;
+    height: 100%;
+    margin: 0px;
+  }
+  a {
+    color: blue;
+  }
+  img {
+    float: Top;
+    width: 200px;
+  }
+  p span {
+    font-weight: bold;
+  }
+  /* .header {
+    background-color: #99b5dd;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    padding: 0px 10px;
+    font-size: 25px;
+    z-index: 10;
+    transition: all 0.2s ease-in-out;
+  } */
+  .content {
+    position: absolute;
+    top: 60px;
+    padding: 10px;
+    margin-bottom: 60px;
+    z-index: 0;
+  }
+  .footer {
+    background-color: #0f215d;
+    position: fixed;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    z-index: 10;
+  }
+  .nav {
+	background: #e3e3e3;
+	padding: 15px;
+	position: fixed; /*left: 50%;*/
+	width: 100%;
+	top: 0px;
+	z-index: 9;
+}
+.nav .logo {
+  display: inline-block;
+  font-size: 25px;
+  color: #2f2d2d;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.nav li{
+	list-style: none;
+	display: inline-block;
+}
+.nav a {
+	padding: 7px 20px;
+	border-radius: 7px;
+	margin-right: 10px;
+	background: #99b5dd;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif, arial;
+	font-weight: 100;
+}
+.nav a.active {
+	background: #000;
+	color: white;
+}
+.nav a:hover {
+	background: #000;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is the css examples we did in class today */
+/* * {
+    font-family: Georgia, 'Times New Roman','Times New Roman', Times, serif;
+}
+
+h1 {
+    background-color: burlywood;
+    color: #19647e;
+    padding: 20px;
+    margin: 3rem;
+    text-align: center;
+}
+
+img {
+    width: ;
+} */

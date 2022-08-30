@@ -1,0 +1,11 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    background-color: lemonchiffon; 
+    color: cadetblue;
+    padding: 20 px;
+    margin: 3rem;
+    text-align: center;
+    width: 100%
+ }
